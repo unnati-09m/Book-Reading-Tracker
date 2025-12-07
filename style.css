@@ -4,65 +4,87 @@
 }
 #outer{
     width: 100vw;
-    background-color: white;
+    background-color: #F9FAFB;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 100px;
 }
-
+/* first  */
 #section{
-    width: 60vw;
+    width: 90vw;
     height: 700px;
-    background-color: pink;
-    margin-top: 50px;
+    margin:100px auto 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    padding: 30px;
+
 }
 
 #firstleft{
     width: 50%;
-    height: 90%;
-    background-color: violet;
+    height: 100%;
+    background-color: #F1F5F9;
     display: flex;
     flex-direction: column;
+    border-radius: 12px;
 }
 #firstright{
     width: 50%;
-    height: 90%;
-    background-color: greenyellow;
+    height: 100%;
+    background: rgba(74, 115, 68, 0.25); 
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #firstcard1{
     width: 300px;
-    height: 150px;
-    border-radius: 5px;
-    background-color: aqua;
-    margin-top: 50%; 
-    transform: translateY(-75px);
+    height: 200px;
+    border-radius: 10px;
+    background: rgba(92, 121, 88, 0.25); 
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px;
+    transform: translateY(-75px); */
+    margin-top: 0;
+    transform: translateY(-40px);
 
 }
 #firstcard2{
-    width: 300px;
-    height: 150px;
-    border-radius: 5px;
-    margin-left: 50px;
-    background-color: red;
-    margin-top: 50%;
-    transform: translateY(-50px);
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background: rgba(92, 121, 88, 0.25); 
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px;
+    transform: translateY(-50px); */
+        margin-top: 0;
+    transform: translateY(-60px);
+
 }
 
 .firstlefttop{
-    height: 60%;
+    height: auto;
     width: 100%;
-    background-color: brown;
+     padding: 30px;
+    background-color: transparent;
 }
 
 .firstleftbottom{
     display: flex;
+    margin-top: 20px;
 }
+
+/* second  */
 
 #section1{
     width: 60vw;
@@ -114,59 +136,128 @@
     margin-top: 50%; 
     transform: translateY(-75px);
 }
+/* third  */
 
 #section2{
-    width: 60vw;
+    width: 80vw;
     height: 700px;
-    background-color: pink;
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    margin:100px auto 0 auto;
+    padding: 30px;
 }
 
 #thirdleft{
     width: 50%;
-    height: 90%;
-    background-color: violet;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #F1F5F9;
+    border-radius: 12px;
 }
 #thirdright{
     width: 50%;
-    height: 90%;
-    background-color: greenyellow;
+    height: 100%;
+    background: rgba(74, 115, 68, 0.25); 
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #thirdcard1{
     width: 300px;
-    height: 150px;
-    border-radius: 5px;
-    background-color: aqua;
-    margin-top: 50%; 
-    transform: translateY(-10px);
+    height: 200px;
+    border-radius: 10px;
+    transform: translateY(-40px);
+    background: rgba(92, 121, 88, 0.25); 
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
 
 }
 #thirdcard2{
-    width: 300px;
-    height: 150px;
-    border-radius: 5px;
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
     margin-left: 50px;
     background-color: red;
     margin-top: 50%;
-    transform: translateY(-80px);
+    transform: translateY(-60px);
+    margin-left: 20px;
+    background: rgba(92, 121, 88, 0.25); 
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+
 }
 
 .thirdlefttop{
-    height: 60%;
     width: 100%;
-    background-color: brown;
+    height: auto;
+    padding: 30px;
+    background-color: transparent;
 }
 
 .thirdleftbottom{
     display: flex;
+    margin-top: 20%;
+}
+/* third-end  */
+/* sbke fonts and button  */
+.tagline {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #445B4C;
 }
 
+.mainHeading {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #2e4634;
+}
+
+.subText {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: #445B4C;
+}
+
+.primaryBtn {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 19px;
+}
+
+.primaryBtn {
+    padding: 12px 28px;
+    background-color: #778873;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.primaryBtn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+/* endfont  */
 #header{
     height: 80px;
     background-color: black;
@@ -208,6 +299,183 @@ a{
 
 footer{
     margin-top: 20vh;
-    height: 100vh;
+    height: 20vh;
     background-color: black;
 }
+/* u */
+
+/* navbar */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(5px);         
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    box-sizing: border-box;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.site-name {
+    font-size: 20px;
+    font-weight:bold;
+    color: #2e4634;
+    padding-left: 40px;
+}
+/* (I’ll complete this section later) */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 31px;
+    margin: 0;
+    padding: 0;
+    padding-right:30px ;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2e4634;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color:#778873;
+}
+/* navbar-end  */
+
+/* hero and image */
+#hero {
+    width: 100%;
+    height: 79vh;
+    background-image: url(images/pexels-cottonbro-3661193.jpg);
+    background-size: cover;        
+    background-position: center;    
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    overflow: hidden;
+    background-clip: border-box;
+    position: relative;
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background: rgba(92, 121, 88, 0.25); 
+    padding: 75px 80px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px); /*blur isse hua*/
+    max-width: 450px;
+}
+
+
+.hero-content h1 {
+    font-size: 3.2rem;
+    color: #ffffff;     
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+  
+}
+
+.hero-sub {
+    font-size: 1.1rem;      
+    margin-bottom: 30px;
+    max-width: 420px;
+    color: #ffffff;
+
+
+}
+
+.hero-btn {
+    padding: 14px 34px;
+    background-color:#778873 ; 
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #778873; 
+}
+.hero-heading {
+    color: #F1F3E0;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    max-width: 480px;
+}
+/* hero-end  */
+
+/* footer  */
+.footer {
+    width: 100%;
+    background: #2e4634;          /* deep green */
+    color: #F1F3E0;               /* soft cream */
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.footer h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.footer-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-links a {
+    color: #F1F3E0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #D2DCB6;               /* light green hover */
+}
+
+.footer-copy {
+    font-size: 13px;
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.7;
+}
+/* footer-end */
+
