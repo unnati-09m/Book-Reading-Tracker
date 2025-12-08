@@ -417,7 +417,7 @@ html, body {
     margin-bottom: 30px;
     max-width: 420px;
     color: #ffffff;
-
+    font-family: 'Inter', sans-serif;;
 
 }
 
@@ -429,6 +429,7 @@ html, body {
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s ease;
+    font-family: 'Inter', sans-serif;
 }
 
 .hero-btn:hover {
