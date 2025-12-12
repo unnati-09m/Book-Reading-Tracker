@@ -252,21 +252,24 @@
 }
 
 .primaryBtn {
+    display: inline-block;        
+    text-decoration: none;        
+    text-align: center;           
+    
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    margin-top: 19px;
-}
 
-.primaryBtn {
-    padding: 12px 28px;
+    padding: 12px 28px;   
     background-color: #778873;
-    border: none;
     color: white;
+    border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.2s ease;
+    margin-top: 20px;
 }
+
 
 .primaryBtn:hover {
     transform: scale(1.07);
@@ -626,3 +629,5 @@ html, body {
     font-weight: 600;
     cursor: pointer;
 }
+
+
