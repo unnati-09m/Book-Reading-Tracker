@@ -13,7 +13,6 @@
       <header class="top-nav">
         <div class="brand">
           <div class="brand-icon">
-            <!-- BookNest logo icon -->
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M4 19.5C4 18.1 5.1 17 6.5 17H20"
                     stroke="currentColor" stroke-width="1.8" fill="none" />
@@ -29,7 +28,6 @@
 
         <div class="nav-right">
           <button class="nav-search" aria-label="Search">
-            <!-- Search icon -->
             <svg class="icon small" viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="11" cy="11" r="7"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
@@ -58,12 +56,9 @@
           page turned.
         </p>
 
-        <!-- STATS ROW -->
         <div class="stats-row">
-          <!-- Currently Reading -->
           <div class="stat-card">
             <div class="stat-icon">
-              <!-- open book icon -->
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M2 6.5C2 5.1 3.1 4 4.5 4H11v16H4.5C3.1 20 2 18.9 2 17.5V6.5Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
@@ -75,10 +70,8 @@
             <div class="stat-label">Currently Reading</div>
           </div>
 
-          <!-- Books Completed -->
           <div class="stat-card">
             <div class="stat-icon">
-              <!-- check circle icon -->
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                 <circle cx="12" cy="12" r="9"
                         stroke="currentColor" stroke-width="1.8" fill="none" />
@@ -91,10 +84,8 @@
             <div class="stat-label">Books Completed</div>
           </div>
 
-          <!-- To Be Read -->
           <div class="stat-card">
             <div class="stat-icon">
-              <!-- bookmark icon -->
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6 3h12v18l-6-4-6 4V3Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
@@ -104,10 +95,8 @@
             <div class="stat-label">To Be Read</div>
           </div>
 
-          <!-- Pages Read -->
           <div class="stat-card">
             <div class="stat-icon">
-              <!-- stacked pages icon -->
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M4 6h12v14H4z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
@@ -123,9 +112,7 @@
     </div>
   </div>
 
-  <!-- MAIN CONTENT -->
   <main class="container content">
-    <!-- CURRENTLY READING -->
     <section>
       <div class="section-header">
         <h2>Currently Reading</h2>
@@ -133,7 +120,6 @@
       </div>
 
       <div class="reading-cards">
-        <!-- Book 1 -->
         <article class="reading-card">
           <div>
             <div class="reading-title">The Midnight Library</div>
@@ -151,7 +137,6 @@
           </div>
         </article>
 
-        <!-- Book 2 -->
         <article class="reading-card">
           <div>
             <div class="reading-title">The Song of Achilles</div>
@@ -188,40 +173,41 @@
       <div class="library-grid">
         <!-- Card 1 -->
         <article class="book-card">
-          <div class="book-cover cover-bg-1">
-            <div class="favorite-icon" aria-hidden="true">
-              <!-- Heart icon -->
+          <div class="book-cover">
+            <img src="./images/midnight library.png" class="book-img" alt="The Midnight Library">
+
+            <div class="favorite-icon">
               <svg class="icon small" viewBox="0 0 24 24">
                 <path d="M12 21s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
               </svg>
             </div>
             <div class="status-badge badge-reading">Reading</div>
-            <div class="book-cover-inner"></div>
           </div>
+
           <div class="book-body">
             <div class="book-title">The Midnight Library</div>
             <div class="book-author">Matt Haig</div>
             <div class="book-genre">Fiction</div>
-            <div class="book-progress">
-              51% complete (156/304 pages)
-            </div>
+            <div class="book-progress">51% complete (156/304 pages)</div>
             <button class="track-link">Track Progress</button>
           </div>
         </article>
 
         <!-- Card 2 -->
         <article class="book-card">
-          <div class="book-cover cover-bg-2">
-            <div class="favorite-icon" aria-hidden="true">
+          <div class="book-cover">
+            <img src="./images/atomic habits.png" class="book-img" alt="Atomic Habits">
+
+            <div class="favorite-icon">
               <svg class="icon small" viewBox="0 0 24 24">
                 <path d="M12 21s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
               </svg>
             </div>
             <div class="status-badge badge-completed">Completed</div>
-            <div class="book-cover-inner"></div>
           </div>
+
           <div class="book-body">
             <div class="book-title">Atomic Habits</div>
             <div class="book-author">James Clear</div>
@@ -232,16 +218,18 @@
 
         <!-- Card 3 -->
         <article class="book-card">
-          <div class="book-cover cover-bg-3">
-            <div class="favorite-icon" aria-hidden="true">
+          <div class="book-cover">
+            <img src="./images/song of achilles.png" class="book-img" alt="The Song of Achilles">
+
+            <div class="favorite-icon">
               <svg class="icon small" viewBox="0 0 24 24">
                 <path d="M12 21s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
               </svg>
             </div>
             <div class="status-badge badge-reading">Reading</div>
-            <div class="book-cover-inner"></div>
           </div>
+
           <div class="book-body">
             <div class="book-title">The Song of Achilles</div>
             <div class="book-author">Madeline Miller</div>
@@ -252,16 +240,18 @@
 
         <!-- Card 4 -->
         <article class="book-card">
-          <div class="book-cover cover-bg-4">
-            <div class="favorite-icon" aria-hidden="true">
+          <div class="book-cover">
+            <img src="./images/project hail.png" class="book-img" alt="Project Hail Mary">
+
+            <div class="favorite-icon">
               <svg class="icon small" viewBox="0 0 24 24">
                 <path d="M12 21s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
               </svg>
             </div>
             <div class="status-badge badge-toread">To Read</div>
-            <div class="book-cover-inner"></div>
           </div>
+
           <div class="book-body">
             <div class="book-title">Project Hail Mary</div>
             <div class="book-author">Andy Weir</div>
@@ -271,16 +261,18 @@
 
         <!-- Card 5 -->
         <article class="book-card">
-          <div class="book-cover cover-bg-5">
-            <div class="favorite-icon" aria-hidden="true">
+          <div class="book-cover">
+            <img src="./images/the house.png" class="book-img" alt="The House in the Cerulean Sea">
+
+            <div class="favorite-icon">
               <svg class="icon small" viewBox="0 0 24 24">
                 <path d="M12 21s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9Z"
                       stroke="currentColor" stroke-width="1.8" fill="none" />
               </svg>
             </div>
             <div class="status-badge badge-completed">Completed</div>
-            <div class="book-cover-inner"></div>
           </div>
+
           <div class="book-body">
             <div class="book-title">The House in the Cerulean Sea</div>
             <div class="book-author">TJ Klune</div>
