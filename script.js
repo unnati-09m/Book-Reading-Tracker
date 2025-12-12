@@ -103,3 +103,27 @@ gsap.from("#thirdcard2",{
     
 
 })
+
+/* ---------------- POPUP CONTROLS ---------------- */
+
+function openPopup() {
+    document.getElementById("popup-bg").style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById("popup-bg").style.display = "none";
+}
+
+document.getElementById("showSignup").onclick = () => {
+    document.querySelector(".login-form").style.display = "none";
+    document.querySelector(".signup-form").style.display = "block";
+};
+
+document.getElementById("showLogin").onclick = () => {
+    document.querySelector(".signup-form").style.display = "none";
+    document.querySelector(".login-form").style.display = "block";
+};
+
+document.getElementById("popup-bg").onclick = (e) => {
+    if (e.target.id === "popup-bg") closePopup();
+};
