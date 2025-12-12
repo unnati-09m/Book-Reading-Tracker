@@ -102,39 +102,4 @@ gsap.from("#thirdcard2",{
     },
     
 
-});
-
-// Open 
-function openPopup() {
-    document.getElementById("popup-bg").style.display = "flex";
-}
-
-// Close
-function closePopup() {
-    document.getElementById("popup-bg").style.display = "none";
-}
-
-// Switch login se signup
-document.getElementById("showSignup").addEventListener("click", () => {
-    document.querySelector(".login-form").style.display = "none";
-    document.querySelector(".signup-form").style.display = "block";
-});
-
-// Switch signup se login
-document.getElementById("showLogin").addEventListener("click", () => {
-    document.querySelector(".signup-form").style.display = "none";
-    document.querySelector(".login-form").style.display = "block";
-});
-
-// Close when click outside
-document.getElementById("popup-bg").addEventListener("click", (e) => {
-    if (e.target.id === "popup-bg") {
-        closePopup();
-    }
-});
-
-// Button open 
-document.querySelector(".hero-btn").addEventListener("click", openPopup);
-document.querySelectorAll(".primaryBtn").forEach(btn => {
-    btn.addEventListener("click", openPopup);
-});
+})
